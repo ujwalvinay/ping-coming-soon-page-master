@@ -1,0 +1,72 @@
+# Frontend Mentor - Ping coming soon page solution
+
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Submit their email address using an `input` field
+- Receive an error message when the `form` is submitted if:
+	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
+	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+
+### Screenshot
+
+<img src ="images/final.png" width = "100%">
+
+### Links
+
+- Solution URL: [https://github.com/ujwalvinay/ping-coming-soon-page-master](https://github.com/ujwalvinay/ping-coming-soon-page-master)
+- Live Site URL: [https://ujwalvinay.github.io/ping-coming-soon-page-master/](https://ujwalvinay.github.io/ping-coming-soon-page-master/)
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [JS](https://www.javascript.com/) - JS library
+- [SCSS](https://sass-lang.com/) - For styles
+
+### What I learned
+
+Got a better understanding of Java Script and learnt to handle the SCSS.
+
+Here is the link to font awesome cdn
+```html
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+```
+
+### Useful resources
+
+- [SASS Documentation](https://sass-lang.com/) - This helped me for understanding the SCSS
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - For better understanding Java Script
+
+## Author
+
+- Frontend Mentor - [@ujwalvinay](https://www.frontendmentor.io/profile/ujwalvinay)
+- Twitter - [@yvinayUjwal](https://mobile.twitter.com/vinayujwal)
+
