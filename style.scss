@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+// colors
+$btn-color : hsl(223, 87%, 63%);
+$btn-secondary-color : hsl(223, 100%, 88%);
+$error_red : hsl(354, 100%, 66%);
+$gray : hsl(0, 0%, 59%);
+$very-dark-blue : hsl(209, 33%, 12%);
+
+// font
+
+$light : 300;
+$semi-bold : 600;
+$bold : 700;
+$p-size : 18px;
+$h1-size : 50px;
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+body
+{
+    text-align: center;
+    width: 100%;
+}
+.container
+{
+    margin: 5rem auto;
+    .logo
+    {
+        width: clamp(30px,20vw,120px);
+        margin: 1rem auto;
+    }
+    h1
+    {
+        padding: 1rem ;
+        font-size: $h1-size;
+        font-weight: $semi-bold;
+        color: $gray;
+        #dark-head
+        {
+            color: $very-dark-blue;
+            font-weight: $bold;
+        }
+    }
+    p
+    {
+        padding: 1rem;
+    }
+    .imgdiv
+    {
+        width: 50%;
+        margin: auto;
+        .banner-img
+        {
+            width: 100%;
+        }
+    }
+    p
+    {
+        font-size: $p-size;
+    }
+    .input-field
+    {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin: 2rem;
+        
+        #inputbox
+        {
+            padding: .75rem 7rem;
+            border-radius: 40px;
+            border: .5px solid $gray;
+            text-align: start;
+        }
+        #Notify-btn
+        {
+            padding: .75rem 2rem;
+            background-color: $btn-color;
+            font-weight: $bold;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 50px;
+
+            -webkit-box-shadow: 7px 6px 30px -3px rgba(0,0,0,0.5);
+            -moz-box-shadow: 7px 6px 30px -3px rgba(0,0,0,0.5);
+            box-shadow: 7px 6px 30px -3px rgba(0,0,0,0.5);
+        }
+    }
+
+    .buttonActive
+    {
+        background-color: $btn-secondary-color;
+
+    }
+}
+.social
+{
+    font-size: 20px;
+    display: flex;
+    gap: 3rem;
+    color: $btn-color;
+    
+    justify-content: center;
+    margin: 2rem;
+    .fa-brands
+    {
+        border: .1px solid rgb(121, 121, 121);
+        padding: 15px;
+        border-radius: 50%;
+        &:hover
+        {
+            color: white;
+            background-color: $btn-color;
+            border: none;
+        }
+        
+    }
+    .fa-facebook-f
+        {
+            padding: 15px 18px;
+        }
+    
+}
+
+@media screen and (max-width:540px) {
+    html,body
+    {
+        overflow-x: hidden;
+    }
+    body
+    {
+        position: relative;
+    }
+    .container
+    {
+        
+        h1
+        {
+            font-size: 26px;
+        }
+        .imgdiv
+        {
+            width: 80%;
+        }
+
+        .input-field
+    {
+        display: flex;
+        flex-direction: column;
+        #inputbox
+        {
+            width: 18rem;
+            line-height: 40px;
+            text-align: center;
+            padding: 0;
+        }
+        #Notify-btn
+        {
+            width: 18rem;
+            margin: auto;
+        }
+    }
+
+    }
+
+    
+    
+    .social
+    {
+        gap: 1rem;
+        font-size: 15px;
+        margin: 0;
+    }
+}
+
+.email-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

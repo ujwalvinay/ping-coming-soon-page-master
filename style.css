@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  margin: 5rem auto;
+}
+.container .logo {
+  width: clamp(30px, 20vw, 120px);
+  margin: 1rem auto;
+}
+.container h1 {
+  padding: 1rem;
+  font-size: 50px;
+  font-weight: 600;
+  color: hsl(0deg, 0%, 59%);
+}
+.container h1 #dark-head {
+  color: hsl(209deg, 33%, 12%);
+  font-weight: 700;
+}
+.container p {
+  padding: 1rem;
+}
+.container .imgdiv {
+  width: 50%;
+  margin: auto;
+}
+.container .imgdiv .banner-img {
+  width: 100%;
+}
+.container p {
+  font-size: 18px;
+}
+.container .input-field {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem;
+}
+.container .input-field #inputbox {
+  padding: 0.75rem 7rem;
+  border-radius: 40px;
+  border: 0.5px solid hsl(0deg, 0%, 59%);
+  text-align: start;
+}
+.container .input-field #Notify-btn {
+  padding: 0.75rem 2rem;
+  background-color: hsl(223deg, 87%, 63%);
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 7px 6px 30px -3px rgba(0, 0, 0, 0.5);
+}
+.container .buttonActive {
+  background-color: hsl(223deg, 100%, 88%);
+}
+
+.social {
+  font-size: 20px;
+  display: flex;
+  gap: 3rem;
+  color: hsl(223deg, 87%, 63%);
+  justify-content: center;
+  margin: 2rem;
+}
+.social .fa-brands {
+  border: 0.1px solid rgb(121, 121, 121);
+  padding: 15px;
+  border-radius: 50%;
+}
+.social .fa-brands:hover {
+  color: white;
+  background-color: hsl(223deg, 87%, 63%);
+  border: none;
+}
+.social .fa-facebook-f {
+  padding: 15px 18px;
+}
+
+@media screen and (max-width: 540px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .container h1 {
+    font-size: 26px;
+  }
+  .container .imgdiv {
+    width: 80%;
+  }
+  .container .input-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .input-field #inputbox {
+    width: 18rem;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+  }
+  .container .input-field #Notify-btn {
+    width: 18rem;
+    margin: auto;
+  }
+  .social {
+    gap: 1rem;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}/*# sourceMappingURL=style.css.map */
